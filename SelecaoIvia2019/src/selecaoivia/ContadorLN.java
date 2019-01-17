@@ -194,7 +194,7 @@ public class ContadorLN {
 
 	public static void main(String args[]) {		
 
-		for (int i = 1; i<200; i++) {
+		for (int i = 1; i<1001; i++) {
 			contadorDeLetras(numeroPorExtenso(i));
 		}
 		System.out.println(total);
